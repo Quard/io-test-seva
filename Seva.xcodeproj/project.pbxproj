@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016463011893C2B700D7925D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016463001893C2B700D7925D /* Foundation.framework */; };
+		016463031893C2B700D7925D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016463021893C2B700D7925D /* CoreGraphics.framework */; };
+		016463051893C2B700D7925D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016463041893C2B700D7925D /* UIKit.framework */; };
+		016463071893C2B700D7925D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016463061893C2B700D7925D /* CoreData.framework */; };
+		0164630D1893C2B700D7925D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0164630B1893C2B700D7925D /* InfoPlist.strings */; };
+		0164630F1893C2B700D7925D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0164630E1893C2B700D7925D /* main.m */; };
+		016463131893C2B700D7925D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 016463121893C2B700D7925D /* AppDelegate.m */; };
+		016463161893C2B700D7925D /* Seva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 016463141893C2B700D7925D /* Seva.xcdatamodeld */; };
+		016463181893C2B700D7925D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016463171893C2B700D7925D /* Images.xcassets */; };
+		0164631F1893C2B700D7925D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164631E1893C2B700D7925D /* XCTest.framework */; };
+		016463201893C2B700D7925D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016463001893C2B700D7925D /* Foundation.framework */; };
+		016463211893C2B700D7925D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016463041893C2B700D7925D /* UIKit.framework */; };
+		016463221893C2B700D7925D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016463061893C2B700D7925D /* CoreData.framework */; };
+		0164632A1893C2B700D7925D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 016463281893C2B700D7925D /* InfoPlist.strings */; };
+		0164632C1893C2B700D7925D /* SevaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0164632B1893C2B700D7925D /* SevaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		016463231893C2B700D7925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 016462F51893C2B700D7925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016462FC1893C2B700D7925D;
+			remoteInfo = Seva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016462FD1893C2B700D7925D /* Seva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016463001893C2B700D7925D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		016463021893C2B700D7925D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		016463041893C2B700D7925D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		016463061893C2B700D7925D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0164630A1893C2B700D7925D /* Seva-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seva-Info.plist"; sourceTree = "<group>"; };
+		0164630C1893C2B700D7925D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0164630E1893C2B700D7925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		016463101893C2B700D7925D /* Seva-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seva-Prefix.pch"; sourceTree = "<group>"; };
+		016463111893C2B700D7925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		016463121893C2B700D7925D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		016463151893C2B700D7925D /* Seva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seva.xcdatamodel; sourceTree = "<group>"; };
+		016463171893C2B700D7925D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0164631D1893C2B700D7925D /* SevaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0164631E1893C2B700D7925D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		016463271893C2B700D7925D /* SevaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SevaTests-Info.plist"; sourceTree = "<group>"; };
+		016463291893C2B700D7925D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0164632B1893C2B700D7925D /* SevaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SevaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016462FA1893C2B700D7925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016463031893C2B700D7925D /* CoreGraphics.framework in Frameworks */,
+				016463071893C2B700D7925D /* CoreData.framework in Frameworks */,
+				016463051893C2B700D7925D /* UIKit.framework in Frameworks */,
+				016463011893C2B700D7925D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0164631A1893C2B700D7925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164631F1893C2B700D7925D /* XCTest.framework in Frameworks */,
+				016463221893C2B700D7925D /* CoreData.framework in Frameworks */,
+				016463211893C2B700D7925D /* UIKit.framework in Frameworks */,
+				016463201893C2B700D7925D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016462F41893C2B700D7925D = {
+			isa = PBXGroup;
+			children = (
+				016463081893C2B700D7925D /* Seva */,
+				016463251893C2B700D7925D /* SevaTests */,
+				016462FF1893C2B700D7925D /* Frameworks */,
+				016462FE1893C2B700D7925D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016462FE1893C2B700D7925D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016462FD1893C2B700D7925D /* Seva.app */,
+				0164631D1893C2B700D7925D /* SevaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016462FF1893C2B700D7925D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				016463001893C2B700D7925D /* Foundation.framework */,
+				016463021893C2B700D7925D /* CoreGraphics.framework */,
+				016463041893C2B700D7925D /* UIKit.framework */,
+				016463061893C2B700D7925D /* CoreData.framework */,
+				0164631E1893C2B700D7925D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		016463081893C2B700D7925D /* Seva */ = {
+			isa = PBXGroup;
+			children = (
+				016463111893C2B700D7925D /* AppDelegate.h */,
+				016463121893C2B700D7925D /* AppDelegate.m */,
+				016463171893C2B700D7925D /* Images.xcassets */,
+				016463141893C2B700D7925D /* Seva.xcdatamodeld */,
+				016463091893C2B700D7925D /* Supporting Files */,
+			);
+			path = Seva;
+			sourceTree = "<group>";
+		};
+		016463091893C2B700D7925D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0164630A1893C2B700D7925D /* Seva-Info.plist */,
+				0164630B1893C2B700D7925D /* InfoPlist.strings */,
+				0164630E1893C2B700D7925D /* main.m */,
+				016463101893C2B700D7925D /* Seva-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		016463251893C2B700D7925D /* SevaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0164632B1893C2B700D7925D /* SevaTests.m */,
+				016463261893C2B700D7925D /* Supporting Files */,
+			);
+			path = SevaTests;
+			sourceTree = "<group>";
+		};
+		016463261893C2B700D7925D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				016463271893C2B700D7925D /* SevaTests-Info.plist */,
+				016463281893C2B700D7925D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016462FC1893C2B700D7925D /* Seva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0164632F1893C2B700D7925D /* Build configuration list for PBXNativeTarget "Seva" */;
+			buildPhases = (
+				016462F91893C2B700D7925D /* Sources */,
+				016462FA1893C2B700D7925D /* Frameworks */,
+				016462FB1893C2B700D7925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seva;
+			productName = Seva;
+			productReference = 016462FD1893C2B700D7925D /* Seva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0164631C1893C2B700D7925D /* SevaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016463321893C2B700D7925D /* Build configuration list for PBXNativeTarget "SevaTests" */;
+			buildPhases = (
+				016463191893C2B700D7925D /* Sources */,
+				0164631A1893C2B700D7925D /* Frameworks */,
+				0164631B1893C2B700D7925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016463241893C2B700D7925D /* PBXTargetDependency */,
+			);
+			name = SevaTests;
+			productName = SevaTests;
+			productReference = 0164631D1893C2B700D7925D /* SevaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016462F51893C2B700D7925D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vadym Zakovinko";
+				TargetAttributes = {
+					0164631C1893C2B700D7925D = {
+						TestTargetID = 016462FC1893C2B700D7925D;
+					};
+				};
+			};
+			buildConfigurationList = 016462F81893C2B700D7925D /* Build configuration list for PBXProject "Seva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 016462F41893C2B700D7925D;
+			productRefGroup = 016462FE1893C2B700D7925D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016462FC1893C2B700D7925D /* Seva */,
+				0164631C1893C2B700D7925D /* SevaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016462FB1893C2B700D7925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164630D1893C2B700D7925D /* InfoPlist.strings in Resources */,
+				016463181893C2B700D7925D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0164631B1893C2B700D7925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164632A1893C2B700D7925D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016462F91893C2B700D7925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016463131893C2B700D7925D /* AppDelegate.m in Sources */,
+				0164630F1893C2B700D7925D /* main.m in Sources */,
+				016463161893C2B700D7925D /* Seva.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016463191893C2B700D7925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164632C1893C2B700D7925D /* SevaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		016463241893C2B700D7925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016462FC1893C2B700D7925D /* Seva */;
+			targetProxy = 016463231893C2B700D7925D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0164630B1893C2B700D7925D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0164630C1893C2B700D7925D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		016463281893C2B700D7925D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016463291893C2B700D7925D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0164632D1893C2B700D7925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0164632E1893C2B700D7925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016463301893C2B700D7925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seva/Seva-Prefix.pch";
+				INFOPLIST_FILE = "Seva/Seva-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		016463311893C2B700D7925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seva/Seva-Prefix.pch";
+				INFOPLIST_FILE = "Seva/Seva-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		016463331893C2B700D7925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seva.app/Seva";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seva/Seva-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SevaTests/SevaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		016463341893C2B700D7925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seva.app/Seva";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seva/Seva-Prefix.pch";
+				INFOPLIST_FILE = "SevaTests/SevaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016462F81893C2B700D7925D /* Build configuration list for PBXProject "Seva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0164632D1893C2B700D7925D /* Debug */,
+				0164632E1893C2B700D7925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0164632F1893C2B700D7925D /* Build configuration list for PBXNativeTarget "Seva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016463301893C2B700D7925D /* Debug */,
+				016463311893C2B700D7925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		016463321893C2B700D7925D /* Build configuration list for PBXNativeTarget "SevaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016463331893C2B700D7925D /* Debug */,
+				016463341893C2B700D7925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		016463141893C2B700D7925D /* Seva.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				016463151893C2B700D7925D /* Seva.xcdatamodel */,
+			);
+			currentVersion = 016463151893C2B700D7925D /* Seva.xcdatamodel */;
+			path = Seva.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 016462F51893C2B700D7925D /* Project object */;
+}
