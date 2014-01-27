@@ -101,6 +101,17 @@
     for (int i=0; i<[avgLevel intValue]; i++) {
         [details appendString:@"★"];
     }
+        
+    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"table_cell_center"]];
+    if (indexPath.row == 0 && indexPath.row == [self tableView:self.tableView numberOfRowsInSection:indexPath.section] - 1) {
+        cell.contentView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"table_cell_single"]];
+    } else if (indexPath.row == 0) {
+        cell.contentView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"table_cell_top"]];
+    } else if (indexPath.row == [self tableView:self.tableView numberOfRowsInSection:indexPath.section] - 1) {
+        cell.contentView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"table_cell_bottom"]];
+    } else {
+        cell.contentView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"table_cell_center"]];
+    }
 
 //    cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
     cell.textLabel.text = [technology valueForKey:@"title"];
